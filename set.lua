@@ -5,9 +5,9 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 
 -- number of space for a tab
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = 7
+vim.opt.softtabstop = 7
+vim.opt.shiftwidth = 7
 vim.opt.expandtab = true
 
 -- Auto indent the next line when line breaking
@@ -42,10 +42,10 @@ vim.opt.mouse = 'a'
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
 
--- Sync clipboard between OS and Neovim.
---  Remove this option if you want your OS clipboard to remain independent.
---  See `:help 'clipboard'`
-vim.opt.clipboard = 'unnamedplus'
+-- -- Sync clipboard between OS and Neovim.
+-- --  Remove this option if you want your OS clipboard to remain independent.
+-- --  See `:help 'clipboard'`
+-- vim.opt.clipboard = 'unnamedplus'
 
 -- Enable break indent
 vim.opt.breakindent = true
