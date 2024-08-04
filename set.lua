@@ -4,6 +4,8 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+vim.g.have_nerd_font = true
+
 -- number of space for a tab
 vim.opt.tabstop = 7
 vim.opt.softtabstop = 7
