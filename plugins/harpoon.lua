@@ -38,21 +38,5 @@ return {
     vim.keymap.set('n', '<C-S-N>', function()
       harpoon:list():next()
     end, { desc = 'Toggle next buffers stored within Harpoon list' })
-
-    -- vim.keymap.set('n', '<C-S-N>', function()
-    --   harpoon:list():
-    -- end, { desc = 'Toggle next buffers stored within Harpoon list' })
-
-    vim.keymap.set('n', '<leader><C-&>', function()
-      harpoon:list():replace_at(1)
-    end)
-
-    vim.keymap.set('n', '<leader><C-é>', function()
-      harpoon:list():replace_at(2)
-    end)
-
-    vim.keymap.set('n', '<leader><C-">', function()
-      harpoon:list():replace_at(3)
-    end)
   end,
 }
