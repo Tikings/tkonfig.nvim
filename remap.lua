@@ -16,7 +16,7 @@ vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
 
 -- Deleting the content of a line :
-vim.keymap.set('n', '<S-D>', '0<S-D>')
+vim.keymap.set('n', '<leader>D', '0<S-D>')
 
 -- Put the cursor in the center when using C-u and C-d
 vim.keymap.set('n', '<C-d>', '<C-d>zz')
