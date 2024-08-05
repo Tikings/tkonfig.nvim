@@ -21,4 +21,6 @@ This config, is highly inspired by ThePrimeAgen and the Kickstart (TJ Devries) c
 - treesitter : colored code
 - undotree : To be able to visualize undohistory
 - Web_dev_icons : Intregration of icons for the different plugins
+- obsidian.nvim : for obsidian integration 
+- markview : Live formatting of markdown text while editing it
  
