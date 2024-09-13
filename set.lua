@@ -6,11 +6,11 @@ vim.opt.relativenumber = true
 
 vim.g.have_nerd_font = true
 
--- number of space for a tab
-vim.opt.tabstop = 7
-vim.opt.softtabstop = 7
-vim.opt.shiftwidth = 7
-vim.opt.expandtab = true
+-- -- number of space for a tab
+-- vim.opt.tabstop = 7
+-- vim.opt.softtabstop = 7
+-- vim.opt.shiftwidth = 7
+-- vim.opt.expandtab = true
 
 -- Auto indent the next line when line breaking
 vim.opt.smartindent = true
@@ -75,3 +75,9 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
 })
+
+vim.g.netrw_banner = 0 -- Hide the netrw banner on top
+vim.g.netrw_altv = 1 -- Create the split of the netrw window to the left
+vim.g.netrw_browse_split = 4 -- Open files in previous window. This emulates the typical "drawer" behavior
+vim.g.netrw_liststyle = 3 -- Set the styling of the file list to be that of a tree
+vim.g.netrw_winsize = 14 -- Set the width of the "drawer"
