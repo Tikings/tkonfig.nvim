@@ -29,7 +29,6 @@ return {
         'texlab',
         'marksman',
         'ruff',
-        'tsserver',
       },
       handlers = {
         function(server_name) -- default handler (optional)
