@@ -19,6 +19,10 @@ return { -- Fuzzy Finder (files, lsp, etc)
     },
     { 'nvim-telescope/telescope-ui-select.nvim' },
     { 'nvim-tree/nvim-web-devicons', enabled = true },
+    {
+      'benfowler/telescope-luasnip.nvim',
+      module = 'telescope._extensions.luasnip', -- if you wish to lazy-load
+    },
   },
   config = function()
     --  :Telescope help_tags
@@ -42,6 +46,7 @@ return { -- Fuzzy Finder (files, lsp, etc)
     -- Enable Telescope extensions if they are installed
     pcall(require('telescope').load_extension, 'fzf')
     pcall(require('telescope').load_extension, 'ui-select')
+    pcall(require('telescope').load_extension, 'luasnip')
 
     -- See `:help telescope.builtin`
     local builtin = require 'telescope.builtin'
