@@ -37,8 +37,7 @@ return { -- Collection of various small independent plugins/modules
 
     -- Betters a/i functionalities
     require('mini.ai').setup()
-    -- auto pairs
-    require('mini.pairs').setup()
+
     -- comments managements (gc, gcc, dans gc in visual mode
     require('mini.comment').setup()
   end,
