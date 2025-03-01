@@ -1,7 +1,7 @@
 # tkonfig.nvim
 My NeoVim config - Still improving it !
 
-# Acknoledgment
+# Acknowledgment
 This config, is highly inspired by ThePrimeAgen and the Kickstart (TJ Devries) configs
 
 # Plugins
@@ -23,4 +23,4 @@ This config, is highly inspired by ThePrimeAgen and the Kickstart (TJ Devries) c
 - Web_dev_icons : Intregration of icons for the different plugins
 - obsidian.nvim : for obsidian integration 
 - markview : Live formatting of markdown text while editing it
- 
+- vimtex : LaTeX LSP and improvement for coding

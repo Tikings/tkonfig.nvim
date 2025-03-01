@@ -35,4 +35,6 @@ vim.keymap.set('n', '<leader>Y', [["+Y]])
 
 vim.keymap.set({ 'n', 'v' }, '<leader>d', [["_d]])
 
-vim.keymap.set('n', ':MarkdownPreview<C-R>', '<C-ù>')
+vim.keymap.set('n', '<C-ù>', ':MarkdownPreview<C-R>')
+
+vim.keymap.set('n', '<leader><leader>s', '<cmd>source ~/.config/nvim/lua/tkonfig/plugins/luasnips.lua<CR>')
